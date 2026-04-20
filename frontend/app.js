@@ -6,7 +6,7 @@ const logoutBtn = document.getElementById('logout-btn');
 const recordsList = document.getElementById('records-list');
 const appointmentsList = document.getElementById('appointments-list');
 
-const API_URL = "http://localhost:5000"; // While developing locally
+const API_URL = "https://health-management-system-b3aq.onrender.com/"; // While developing locally
 
 // Updated Login Handler
 loginForm.addEventListener('submit', async (e) => {
